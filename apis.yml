@@ -1,9 +1,29 @@
 aid: vastuhfc
-name: Vastuhfc
-description: 'Vastuhfc is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+name: Vastu Housing Finance Corporation
+description: >-
+  Vastu Housing Finance Corporation Limited (Vastu HFC) is an Indian,
+  technology-enabled affordable housing finance company backed by Norwest
+  Venture Partners. It provides home purchase, construction, extension, and
+  improvement loans, plot-plus-construction loans, commercial property loans,
+  and loans against property through 200+ branches across 17 states, serving
+  1.6+ million customers, and participates in government subsidy schemes such
+  as Pradhan Mantri Awas Yojana Urban 2.0. Vehicle, business, and
+  construction-equipment lending is offered through its subsidiary Vastu
+  Finserve. The company operates as a digital-first lender with a customer
+  mobile app, but publishes no public developer portal or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/vastuhfc/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.vastuhfc.com/assets/images/logo-new.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Financial Services
+- Housing Finance
+- Home Loans
+- Lending
+- Mortgages
+- Affordable Housing
+- India
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +50,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://vastuhfc.com
+  url: https://www.vastuhfc.com
+- type: Support
+  url: https://www.vastuhfc.com/contact-us
+- type: FAQ
+  url: https://www.vastuhfc.com/faq
+- type: Pricing
+  url: https://www.vastuhfc.com/roi-range
+- type: TermsOfService
+  url: https://www.vastuhfc.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.vastuhfc.com/privacy-policy
+- type: Careers
+  url: https://www.vastuhfc.com/careers
+- type: MobileApp
+  url: https://play.google.com/store/apps/details?id=com.vastuhfc.customer_application
+- type: LinkedIn
+  url: https://in.linkedin.com/company/vastu-housing-finance-corporation-ltd.
+- type: Twitter
+  url: https://twitter.com/vastuhfc
+- type: DomainSecurity
+  url: security/vastuhfc-domain-security.yml
+- type: LLMsTxt
+  url: llms/vastuhfc-llms.txt
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
