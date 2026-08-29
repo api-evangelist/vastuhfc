@@ -12,6 +12,17 @@ description: >-
   Finserve. The company operates as a digital-first lender with a customer
   mobile app, but publishes no public developer portal or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/vastuhfc/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
