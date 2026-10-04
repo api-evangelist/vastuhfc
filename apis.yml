@@ -46,7 +46,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Housing Finance
 - Home Loans
 - Lending
@@ -62,6 +62,7 @@ tags_raw:
 - Mortgages
 - Affordable Housing
 - India
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
