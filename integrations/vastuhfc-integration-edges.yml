@@ -1,0 +1,51 @@
+edges:
+- partner_name: Sahamati Account Aggregator ecosystem (FIP / FIU)
+  partner: null
+  partner_match: register-name
+  type: contract
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://sahamati.org.in/fip-fiu-in-account-aggregators-ecosystem/
+  category: Account Aggregator FIP / FIU (India Stack, DEPA)
+  contract_reference:
+    register: Sahamati FIPs & FIUs in the AA ecosystem (sahamati.org.in/fip-fiu-in-account-aggregators-ecosystem)
+    standard: RBI NBFC-Account Aggregator framework (ReBIT AA technical standards)
+    spec_file: null
+    role: aa-fiu
+    registered_name: Vastu Housing Finance Corporation Limited
+    register_id: Vastu Housing Finance Corporation Limited
+    licence_type: Housing Finance Company (HFC)
+    regulator: RBI
+    engagement_stage: Live
+    implementation_stages:
+      FIU:
+      - Live
+    matched_domain: null
+    matched_by: register-name
+    identity: null
+    identity_source: register-name
+    certified_products:
+    - product: AA FIU (production Central Registry)
+      role: FIU
+      stage: Live
+      lapsed: false
+    signal_note: certified_products = one per ROLE (FIP / FIU) at stage Live or Live-enabled (listed in the production
+      Central Registry after ReBIT-standard certification); Testing / In-Development are participation only. The
+      table has no lapse data, so lapsed is false
+    detected_by: sweep-india-stack.py
+    detected: '2026-10-20'
+    identity_note: register gave only the name; exact normalised match to the repo's apis.yml name, one repo, Wikidata
+      P856 not contradicting (Kin 2026-10-20 decision 2)
+  detected_by: sweep-india-stack.py
+  first_seen: '2026-10-20'
+generated: '2026-10-20'
+method: searched
+source:
+- https://sahamati.org.in/account-aggregators-in-india/
+- https://sahamati.org.in/fip-fiu-in-account-aggregators-ecosystem/
+- https://prod.registry.ondc.org/lookup
+checked:
+- https://prod.registry.ondc.org/lookup
+- https://sahamati.org.in/account-aggregators-in-india/
+- https://sahamati.org.in/fip-fiu-in-account-aggregators-ecosystem/
